@@ -1,4 +1,4 @@
-#Common
+# Common
 ```<meta charSet="utf-8" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <link rel="shortcut icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -18,7 +18,7 @@
 <meta name="twitter:creator" content="@GravityNo_" />```
 
 
-#Each Page
+# Each Page
 
 ```<link rel="canonical" href={pageUrl} />
 <title>{title}</title>
@@ -34,7 +34,9 @@
 <meta name="twitter:image:src" content={imgUrl} />
 <meta name="twitter:url" content={pageUrl} />```
 
-#SiteMap
+# SiteMap
+  "next-sitemap": "^3.1.17",
+  "postbuild": "next-sitemap"
 
 #Robots.txt
 User-agent: *
@@ -43,4 +45,4 @@ Allow: /
 Sitemap: https://www.gravityno.com/sitemap.xml
 Sitemap: https://www.gravityno.com/sitemap-0.xml
 
-#Favicon icon and its veriants 
+# Favicon icon and its veriants 
